@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: "Playpen Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+    background-color: blueviolet;
+
+}
+
+.menu {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a::hover {
+    background-color: red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.copy {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.copy p {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
