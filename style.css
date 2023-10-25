@@ -24,20 +24,22 @@ header {
 .menu {
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
 }
 
 a {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
 }
 
-.menu a::hover {
-    background-color: red;
+.menu a:hover {
+    background-color: #cf9efc;
+    color: black;
 }
 
 img {
@@ -47,8 +49,8 @@ img {
 }
 
 .main {
-    align-items: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 1px;
     margin: 22px;
@@ -61,29 +63,70 @@ h1 {
     padding: 10px;
 }
 
+.backend {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
 
+.backend ul {
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
 
+.backend:hover {
+    background-color: #cf9efc;
+}
 
+.frontend {
 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
 
+.design {
 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
 
+.analysis {
 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
 
+.infraestruture {
 
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1px;
+    margin: 22px;
+}
 
 footer {
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .social {
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
@@ -92,6 +135,7 @@ footer {
 .copy {
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
